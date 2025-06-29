@@ -2,6 +2,28 @@
 <html>
 <head>
     <title>Historial de Viajes</title>
+    <!-- Incluye SweetAlert2 -->
+<script src="modulos/js/sweetalert2.all.min.js"></script>
+
+<!-- Estilo personalizado -->
+<script>
+Swal.fire({
+    title: '¡Bienvenido!',
+    text: 'Has iniciado sesión exitosamente.',
+    icon: 'success',
+    confirmButtonText: '¡Perfecto!',
+    confirmButtonColor: '#3085d6',
+    background: '#f2f2f2',
+    color: '#333',
+    iconColor: '#28a745',
+    showClass: {
+        popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+        popup: 'animate__animated animate__fadeOutUp'
+    }
+});
+</script>
 </head>
 <body>
     <h2>Historial de Viajes</h2>
